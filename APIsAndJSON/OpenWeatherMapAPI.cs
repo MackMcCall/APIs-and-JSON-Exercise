@@ -26,8 +26,6 @@ namespace APIsAndJSON
 
             var temp = Math.Round(double.Parse(openWeatherInfo["main"]["temp"].ToString()), 0);
 
-            var currDesc = openWeatherInfo["weather"][0]["description"].ToString();
-
             return temp;
         }
         public static string CurrDescription()
