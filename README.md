@@ -1,39 +1,35 @@
-## Exercise1:
+# Kanye & Ron in Pawnee
 
-Let’s create a console application that calls both the Ron Swanson API, and the Kanye West API. Using both APIs, make Ron Swanson and Kanye West have a conversation that prints to the console.
+Kanye & Ron in Pawnee is a C# console application that orchestrates a humorous conversation between Kanye West and Ron Swanson, enhanced with local Pawnee weather data all gathered from three APIs.
 
-Hints:
-Use a for loop to generate at least 5 quotes from each api and have them alternate to simulate a conversation
+## This project demonstrates proficiency in:
 
-Here is some code to utilize for parsing the ron swanson response:
-```
-var ronQuote = JArray.Parse(ronResponse).ToString().Replace('[', ' ').Replace(']', ' ').Trim();
-```
+- C# programming
+- .NET Core development
+- API integration
+- JSON parsing
 
-Here are the API urls:
+## Features:
 
-https://ron-swanson-quotes.herokuapp.com/v2/quotes
+- **Engaging Dialogue:** Crafted an engaging exchange between Kanye West and Ron Swanson, enriching the user experience.
+- **API Integration:** Leveraged multiple REST APIs to fetch quotes and local weather data, enhancing the application's functionality.
+- **JSON Parsing:** Efficiently handled API communication and JSON parsing, ensuring seamless integration with external data sources.
 
-https://api.kanye.rest
+## How to Use:
 
+1. Clone this repository.
+2. Get an OpenWeather Map API key from: [OpenWeatherMap.com](https://home.openweathermap.org/users/sign_up)
+3. Open program in your preferred IDE.
+4. Create an appsettings.json file in the project with this format:
+  ```txt
+    {
+      "apiKey" : "insertOpenWeatherApiKeyHere"
+    }
+  ```
+3. Build and run the application.
 
-FINISHED Project:
-https://github.com/mvdoyle/KanyeAndRonSwanson
+## Stay Connected:
 
-## Exercise 2:
-
-Use the [OpenWeatherMap API](https://openweathermap.org/) to find out what the current weather forecast is!
-
-Create an OpenWeatherMap account to get a free API Key
-
-Add the NewtonSoft.Json Nuget Package to your Console App
-
-Figure out how to get the CURRENT weather for the City you specify in degrees fahrenheit
-
-Use this site for extra help:
-[https://openweathermap.org/current](https://openweathermap.org/current)
-
-Creatively display & organize the response
-
-Hint: For more info on Units of Measurement visit:
-[https://openweathermap.org/current#data](https://openweathermap.org/current#data)
+- Email: [Your Email Address]
+- GitHub: [Your GitHub Profile]
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mackmccall/)
