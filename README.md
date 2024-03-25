@@ -30,6 +30,6 @@ Kanye & Ron in Pawnee is a C# console application that orchestrates a humorous c
 
 ## Stay Connected:
 
-- Email: [Your Email Address]
-- GitHub: [Your GitHub Profile]
+- Email: [mackmc9924@gmail.com](mailto:mackmc9924@gmail.com)
+- GitHub: [Mack McCall](https://github.com/MackMcCall)
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mackmccall/)
